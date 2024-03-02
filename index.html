@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Page</title>
+</head>
+<body>
+   <header class="error">404 NOT FOUND</header>
+   <main class="message">    
+      <img class="imgscare" src="Scarecrow.png" alt="Scarecrow-404">    
+      <section>
+        <h1>I have bad news for you</h1>
+        <div class="parraph">
+          <p>The page you are looking for might be removed or is temporarily unavailable</p>
+        </div>
+        <button>BACK TO HOMEPAGE</button>
+      </section>
+    
+   </main>
+</body>
+</html>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+  body{
+    box-sizing: border-box;
+    font-family: 'Space Mono';
+    color: #333;
+  }
+
+  h1{
+    font-weight: 700;
+    font-size: 64px;
+  }
+
+  p{
+    font-weight: 400;
+    font-size: 24px;
+    width: 390px;
+    text-align: justify;
+    margin-bottom: 50px;
+  }
+
+  section{
+    width: 600px;
+  }
+
+  .imgscare{
+    width: 540px;
+    height: 450px;
+    margin: 0;
+  }
+
+  .error{
+    padding-top: 60px;
+    padding-left: 50px;
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    color: #333;
+  }
+
+  .message{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    
+  }
+
+  button{
+    padding: 20px 25px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px){
+
+    .error{
+      padding-top: 20px;
+      padding-left: 20px;
+      font-size: 18px;
+    }
+
+    .message{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .imgscare{
+      padding: 8px 0;
+      width: 286px;
+      height: 238px;
+    }
+  }
+
+  section{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1{
+    font-size: 48px;
+    margin: 15px 0;
+  }
+
+  p{
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  button{
+    width: 200px;
+    padding: 25px 20px;
+    font-size: 12px;
+  }
+
+</style>
